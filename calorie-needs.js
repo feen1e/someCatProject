@@ -5,7 +5,6 @@ const userInput = document.getElementById("weight");
 const calculateWeight = () => {
     const weight = Number(userInput.value);
     if (weight <= 0 || weight > 20) {
-        console.log("weight is <= 0 or greater than 20");
         alert("Please enter a valid weight.")
     } else {
         const calorieNeeds = 100 * Math.pow(weight, 0.67);

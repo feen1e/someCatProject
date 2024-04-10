@@ -24,7 +24,6 @@ const calculateAge = () => {
             lifeStage = "Senior";
         }
         let humanYears;
-        console.log(convMonths, convYears)
         if (lifeStage === "Kitten") {
             humanYears = convMonths - 2 > 0 ? convMonths + (convMonths - 2) : convMonths;
         } else if (lifeStage === "Junior") {
